@@ -65,7 +65,7 @@ Applied across all components for visual consistency.
 | **Expo**            | Development and build tooling |
 | **AsyncStorage**    | Local data persistence |
 | **React Navigation**| Stack & tab navigation |
-| **@react-native-picker/picker | Category selection |
+| **@react-native-picker/picker** | Category selection |
 | **Expo Image Picker** | Cover image selection |
 
 ---
