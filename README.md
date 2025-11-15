@@ -59,13 +59,13 @@ Applied across all components for visual consistency.
 
 ##  Tech Stack
 
-| Technology          | Purpose |
+| Technology          | Purpose  |
 |-----------          |---------
 | **React Native**    | Cross-platform mobile framework |
 | **Expo**            | Development and build tooling |
 | **AsyncStorage**    | Local data persistence |
 | **React Navigation**| Stack & tab navigation |
-| **@react-native-picker/picker** | Category selection |
+| **@react-native-picker/picker**| Category selection |
 | **Expo Image Picker** | Cover image selection |
 
 ---
