@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,
-    backgroundColor: '#25221f', // dark academia background
+    backgroundColor: '#25221f',
   },
   centered: {
     justifyContent: 'center',  // vertical centering

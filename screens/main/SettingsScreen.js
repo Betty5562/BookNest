@@ -54,7 +54,7 @@ const SettingsScreen = ({ navigation }) => {
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      {/* Removed: <Text style={styles.title}>Settings</Text> */}
+      {}
 
       <Text style={styles.sectionTitle}>Display Preferences</Text>
       <View style={styles.row}>
@@ -102,7 +102,7 @@ const styles = StyleSheet.create({
     padding: 20,
     backgroundColor: darkAcademia.background,
   },
-  // Removed: title style (no longer needed)
+  
   sectionTitle: {
     fontSize: 18,
     marginTop: 20,

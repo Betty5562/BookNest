@@ -1,4 +1,3 @@
-import AsyncStorage from '@react-native-async-storage/async-storage'; // Add this import
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import * as SecureStore from 'expo-secure-store';
@@ -31,8 +30,8 @@ export default function App() {
   const checkAuth = async () => {
     try {
       // Temporary: Clear all data on load (remove after testing)
-      await AsyncStorage.clear();
-      console.log('All data cleared');
+     // await AsyncStorage.clear();
+      //console.log('All data cleared');
       
       // Seed initial books
       await seedInitialBooks();

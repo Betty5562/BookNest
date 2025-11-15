@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
     fontSize: 36,
     fontFamily: 'serif',
     fontWeight: 'bold',
-    color: '#f5f0e1',           // cream text
+    color: '#f5f0e1',          
     marginBottom: 20,
     textAlign: 'center',
   },

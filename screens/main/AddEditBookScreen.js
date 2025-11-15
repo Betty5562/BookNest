@@ -41,8 +41,8 @@ const AddEditBookScreen = ({ route, navigation }) => {
 
   const formatted = {
     ...values,
-    rating: Number(values.rating), // make sure it's a number
-    category: values.category.trim() || 'Uncategorized', // <-- fix
+    rating: Number(values.rating), 
+    category: values.category.trim() || 'Uncategorized', 
     imageUri,
   };
 
@@ -109,7 +109,7 @@ const AddEditBookScreen = ({ route, navigation }) => {
             <TextInput
               placeholder="Rating (1-5)"
               value={values.rating.toString()}
-              onChangeText={(text) => handleChange('rating')(Number(text))} // FIXED
+              onChangeText={(text) => handleChange('rating')(Number(text))} 
               onBlur={handleBlur('rating')}
               keyboardType="numeric"
               error={touched.rating && errors.rating}

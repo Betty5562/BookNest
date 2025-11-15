@@ -2,18 +2,18 @@ import { Ionicons } from '@expo/vector-icons';
 import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 const Card = ({ book, onPress, onFavoriteToggle, isFavorite }) => {
-  // Determine image source
+
   const getImageSource = () => {
     if (!book.imageUri) {
       return { uri: 'https://via.placeholder.com/100x150?text=No+Image' };
     }
     
-    // If it's a URL (starts with http or file://)
+  
     if (book.imageUri.startsWith('http') || book.imageUri.startsWith('file://')) {
       return { uri: book.imageUri };
     }
     
-    // Otherwise treat as placeholder
+   
     return { uri: 'https://via.placeholder.com/100x150?text=No+Image' };
   };
 

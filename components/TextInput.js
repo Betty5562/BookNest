@@ -1,5 +1,5 @@
 import { TextInput as RNTextInput, StyleSheet, Text, View } from 'react-native';
-import { darkAcademia } from '../utils/theme'; // optional
+import { darkAcademia } from '../utils/theme';
 
 const TextInput = ({ error, ...props }) => {
   return (

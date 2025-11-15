@@ -35,18 +35,18 @@ const MainTabs = () => (
       name="Profile" 
       component={ProfileScreen} 
       options={{ 
-        headerStyle: { backgroundColor: '#25221f' },  // Dark background
-        headerTintColor: '#f5f0e1',  // Light text
-        headerTitleStyle: { fontFamily: 'serif' },  // Optional: Match your font
+        headerStyle: { backgroundColor: '#25221f' },  
+        headerTintColor: '#f5f0e1',  
+        headerTitleStyle: { fontFamily: 'serif' },  
       }} 
     />
     <Tab.Screen 
       name="Settings" 
       component={SettingsScreen} 
       options={{ 
-        headerStyle: { backgroundColor: '#25221f' },  // Dark background
-        headerTintColor: '#f5f0e1',  // Light text
-        headerTitleStyle: { fontFamily: 'serif' },  // Optional: Match your font
+        headerStyle: { backgroundColor: '#25221f' },
+        headerTintColor: '#f5f0e1', 
+        headerTitleStyle: { fontFamily: 'serif' }, 
       }} 
     />
   </Tab.Navigator>

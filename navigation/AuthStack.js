@@ -12,7 +12,7 @@ export default function AuthStack() {
       <Stack.Screen name="Login" component={LoginScreen} />
       <Stack.Screen name="Signup">
   {props => <SignupScreen {...props} setIsAuthenticated={setIsAuthenticated} />}
-</Stack.Screen>
+    </Stack.Screen>
 
     </Stack.Navigator>
   );

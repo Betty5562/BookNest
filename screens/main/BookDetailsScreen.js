@@ -10,8 +10,8 @@ const BookDetailsScreen = ({ route, navigation }) => {
   const { book } = route.params;
   const [userBooks, setUserBooks] = useState({});
   const [currentUser, setCurrentUser] = useState(null);
-  const [notes, setNotes] = useState([]); // Array of notes
-  const [newNote, setNewNote] = useState(''); // Current note being written
+  const [notes, setNotes] = useState([]); 
+  const [newNote, setNewNote] = useState(''); 
   const [isAddingNote, setIsAddingNote] = useState(false);
 
   useEffect(() => {
@@ -149,7 +149,7 @@ const BookDetailsScreen = ({ route, navigation }) => {
             dropdownIconColor={darkAcademia.text}
             mode="dialog"
 
-         itemStyle={{ backgroundColor: darkAcademia.background, color: darkAcademia.text }}  // Add itemStyle for consistency
+         itemStyle={{ backgroundColor: darkAcademia.background, color: darkAcademia.text }}  
      >
        <Picker.Item label="Not Set" value={null} color={darkAcademia.text} style={{ backgroundColor: darkAcademia.background }} />
        <Picker.Item label="Want to Read" value="wantToRead" color={darkAcademia.text} style={{ backgroundColor: darkAcademia.background }} />
@@ -160,7 +160,7 @@ const BookDetailsScreen = ({ route, navigation }) => {
 
         <Text style={styles.label}>Personal Notes:</Text>
         
-        {/* Display existing notes */}
+        {}
         {notes.length > 0 && (
           <View style={styles.notesContainer}>
             {notes.map((note, index) => (
@@ -175,7 +175,7 @@ const BookDetailsScreen = ({ route, navigation }) => {
           </View>
         )}
 
-        {/* Add new note section */}
+        {}
         {!isAddingNote ? (
           <View style={{ marginBottom: 10 }}>
             <Button title="+ Add New Note" onPress={() => setIsAddingNote(true)} />

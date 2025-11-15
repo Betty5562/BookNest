@@ -4,9 +4,9 @@
     "slug": "booknest",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",  // Update if your icon is elsewhere
+    "icon": "./assets/images/icon.png",  
     "splash": {
-      "image": "./assets/images/splash-icon.png",  // Update if your splash is elsewhere
+      "image": "./assets/images/splash-icon.png",  
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },

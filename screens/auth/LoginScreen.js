@@ -22,7 +22,7 @@ const LoginScreen = ({ navigation, setIsAuthenticated }) => {
 
     await setCurrentUser(user);
     await SecureStore.setItemAsync('sessionToken', 'mockToken');
-    setIsAuthenticated(true); // This triggers navigation to MainTabs
+    setIsAuthenticated(true); // This sort of triggers navigation to MainTabs
   };
 
   return (
